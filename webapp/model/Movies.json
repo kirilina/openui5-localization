@@ -1,12 +1,12 @@
 {
-	"initDate": "05/19/2019/12:0:0",
+	"initDate": "05/26/2021/12:0:0",
 	"movies": [{
 		"name": "Parry Hotter and the Chamber of Mysteries",
 		"genre": "Action",
 		"appointments": [
 			{
-				"startDate": "05/19/2019/16:0:0",
-				"endDate": "05/19/2019/18:30:0",
+				"startDate": "05/26/2021/16:0:0",
+				"endDate": "05/26/2021/18:30:0",
 				"cinemaName": "Cine Castle",
 				"cinemaAddress": "Spree Strasse 110, Hamburg",
 				"special": "Sneak Preview with 1 ice cream cone for free.",
@@ -18,8 +18,8 @@
 				"pic": "images/CinemaHamburg.png"
 			},
 			{
-				"startDate": "05/19/2019/18:0:0",
-				"endDate": "05/19/2019/20:0:0",
+				"startDate": "05/26/2021/18:0:0",
+				"endDate": "05/26/2021/20:0:0",
 				"cinemaName": "Starlight Show",
 				"cinemaAddress": "Hauptstrasse 55, Berlin",
 				"special": "Presentation on mysterious phenomena 1 hour before showtime.",
@@ -31,8 +31,8 @@
 				"pic": "images/CinemaBerlin.png"
 			},
 			{
-				"startDate": "05/19/2019/10:0:0",
-				"endDate": "05/19/2019/12:0:0",
+				"startDate": "05/26/2021/10:0:0",
+				"endDate": "05/26/2021/12:0:0",
 				"cinemaName": "Movie House",
 				"cinemaAddress": "Goethe Strasse 40, Munich",
 				"special": "Meet the author of the book after the movie.",
@@ -44,8 +44,8 @@
 				"pic": "images/CinemaMunich.png"
 			},
 			{
-				"startDate": "05/20/2019/10:0:0",
-				"endDate": "05/20/2019/12:0:0",
+				"startDate": "05/20/2021/10:0:0",
+				"endDate": "05/20/2021/12:0:0",
 				"cinemaName": "Movie House",
 				"cinemaAddress": "Goethe Strasse 40, Munich",
 				"special": "Standard show",
@@ -57,8 +57,8 @@
 				"pic": "images/CinemaMunich.png"
 			},
 			{
-				"startDate": "05/20/2019/18:0:0",
-				"endDate": "05/20/2019/20:0:0",
+				"startDate": "05/20/2021/18:0:0",
+				"endDate": "05/20/2021/20:0:0",
 				"cinemaName": "Starlight Show",
 				"cinemaAddress": "Hauptstrasse 55, Berlin",
 				"special": "Monday Evening Special with 1 medium popcorn for free.",
@@ -70,8 +70,8 @@
 				"pic": "images/CinemaBerlin.png"
 			},
 			{
-				"startDate": "05/21/2019/11:0:0",
-				"endDate": "05/21/2019/13:0:0",
+				"startDate": "05/21/2021/11:0:0",
+				"endDate": "05/21/2021/13:0:0",
 				"cinemaName": "Lighthouse",
 				"cinemaAddress": "Spree Strasse 50",
 				"special": "Normal presentation.",
@@ -89,8 +89,8 @@
 			"genre": "Horror",
 			"appointments": [
 				{
-					"startDate": "05/19/2019/15:0:0",
-					"endDate": "05/19/2019/16:30:0",
+					"startDate": "05/26/2021/15:0:0",
+					"endDate": "05/26/2021/16:30:0",
 					"cinemaName": "Cine Castle",
 					"cinemaAddress": "Spree Strasse 110, Hamburg",
 					"special": "Presentation on murder psychology 1 hour before showtime.",
@@ -102,8 +102,8 @@
 					"pic": "images/CinemaHamburg.png"
 				},
 				{
-					"startDate": "05/20/2019/15:0:0",
-					"endDate": "05/20/2019/17:0:0",
+					"startDate": "05/20/2021/15:0:0",
+					"endDate": "05/20/2021/17:0:0",
 					"cinemaName": "Movie House",
 					"cinemaAddress": "Goethe Strasse 40, Munich",
 					"special": "Sneak Preview with 1 ice cream cone for free.",
@@ -115,8 +115,8 @@
 					"pic": "images/CinemaMunich.png"
 				},
 				{
-					"startDate": "05/19/2019/14:0:0",
-					"endDate": "05/19/2019/16:0:0",
+					"startDate": "05/26/2021/14:0:0",
+					"endDate": "05/26/2021/16:0:0",
 					"cinemaName": "Lighthouse",
 					"cinemaAddress": "Hauptstrasse 55, Berlin",
 					"special": "Standard presentation.",
@@ -134,8 +134,8 @@
 			"genre": "ScienceFiction",
 			"appointments": [
 				{
-					"startDate": "05/19/2019/16:0:0",
-					"endDate": "05/19/2019/18:00:0",
+					"startDate": "05/26/2021/16:0:0",
+					"endDate": "05/26/2021/18:00:0",
 					"cinemaName": "Cine Castle",
 					"cinemaAddress": "Spree Strasse 110, Hamburg",
 					"special": "Half price if you're dressed up as Wars-of-Stars characters.",
@@ -147,8 +147,8 @@
 					"pic": "images/CinemaHamburg.png"
 				},
 				{
-					"startDate": "05/20/2019/20:0:0",
-					"endDate": "05/20/2019/22:30:0",
+					"startDate": "05/20/2021/20:0:0",
+					"endDate": "05/20/2021/22:30:0",
 					"cinemaName": "Movie House",
 					"cinemaAddress": "Goethe Strasse 40, Munich",
 					"special": "Rare Wars-of-Stars items available in the cine shop",
@@ -160,8 +160,8 @@
 					"pic": "images/CinemaMunich.png"
 				},
 				{
-					"startDate": "05/19/2019/16:0:0",
-					"endDate": "05/19/2019/17:30:0",
+					"startDate": "05/26/2021/16:0:0",
+					"endDate": "05/26/2021/17:30:0",
 					"cinemaName": "Lighthouse",
 					"cinemaAddress": "Hauptstrasse 55, Berlin",
 					"special": "Standard presentation.",
@@ -179,8 +179,8 @@
 			"genre": "Action",
 			"appointments": [
 				{
-					"startDate": "05/19/2019/17:0:0",
-					"endDate": "05/19/2019/19:00:0",
+					"startDate": "05/26/2021/17:0:0",
+					"endDate": "05/26/2021/19:00:0",
 					"cinemaName": "Cine Castle",
 					"cinemaAddress": "Spree Strasse 110, Hamburg",
 					"special": "Standard presentation",
@@ -192,8 +192,8 @@
 					"pic": "images/CinemaHamburg.png"
 				},
 				{
-					"startDate": "05/19/2019/15:0:0",
-					"endDate": "05/19/2019/17:0:0",
+					"startDate": "05/26/2021/15:0:0",
+					"endDate": "05/26/2021/17:0:0",
 					"cinemaName": "Movie House",
 					"cinemaAddress": "Goethe Strasse 40, Munich",
 					"special": "Meet the author of the book after the movie.",
@@ -205,8 +205,8 @@
 					"pic": "images/CinemaMunich.png"
 				},
 				{
-					"startDate": "05/20/2019/19:0:0",
-					"endDate": "05/20/2019/21:30:0",
+					"startDate": "05/20/2021/19:0:0",
+					"endDate": "05/20/2021/21:30:0",
 					"cinemaName": "Movie House",
 					"cinemaAddress": "Goethe Strasse 40, Munich",
 					"special": "Autograph session 1 hour before showtime: Tim Cruz is available just for you!",
@@ -218,8 +218,8 @@
 					"pic": "images/CinemaMunich.png"
 				},
 				{
-					"startDate": "05/19/2019/13:0:0",
-					"endDate": "05/19/2019/15:0:0",
+					"startDate": "05/26/2021/13:0:0",
+					"endDate": "05/26/2021/15:0:0",
 					"cinemaName": "Lighthouse",
 					"cinemaAddress": "Hauptstrasse 55, Berlin",
 					"special": "Standard presentation",
@@ -231,8 +231,8 @@
 					"pic": "images/CinemaBerlin.png"
 				},
 				{
-					"startDate": "05/19/2019/18:0:0",
-					"endDate": "05/19/2019/20:0:0",
+					"startDate": "05/26/2021/18:0:0",
+					"endDate": "05/26/2021/20:0:0",
 					"cinemaName": "Starlight Show",
 					"cinemaAddress": "Hauptstrasse 55, Berlin",
 					"special": "Presentation on human physiology and sports injuries 1 hour before showtime.",
