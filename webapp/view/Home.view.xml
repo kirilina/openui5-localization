@@ -60,33 +60,41 @@
 						press=".onPress('for movies!')"/>
 				</f:content>
 			</f:SimpleForm>
-			<PlanningCalendar
-				id="calendar"
-				startDate="{path: 'movies>/initDate', formatter: '.formatter.formatDate'}"
-				rows="{movies>/movies}"
-				appointmentsVisualization="Filled"
-				appointmentSelect=".onAppointmentSelect(${$parameters>/appointment})">
-				<toolbarContent>
-					<Title text="Showtimes" titleStyle="H4"/>
-				</toolbarContent>
-				<rows>
-					<PlanningCalendarRow
-						title="{movies>name}"
-						text="{movies>genre}"
-						appointments="{path : 'movies>appointments', templateShareable: 'true'}">
-						<appointments>
-							<unified:CalendarAppointment
-								startDate="{path: 'movies>startDate', formatter: '.formatter.formatDate'}"
-								endDate="{path: 'movies>endDate', formatter: '.formatter.formatDate'}"
-								title="{movies>info}"
-								text="{movies>cinemaName}"
-								icon="{movies>icon}"
-								type="{movies>type}">
-							</unified:CalendarAppointment>
-						</appointments>
-					</PlanningCalendarRow>
-				</rows>
-			</PlanningCalendar>
+			<List
+				id="moviesList"
+				headerText="Showtimes - Today"
+				items="{appointments>/appointments}">
+				<items>
+					<StandardListItem
+						title="{appointments>name}"
+						description="{appointments>genre}"
+						icon="{appointments>pic}"
+						iconDensityAware="false"
+						iconInset="false" />
+					<ObjectListItem
+						title="{appointments>name}"
+						description="{appointments>genre}"
+						icon="{appointments>icon}"
+						number="{
+							path:'appointments>startDate',
+							type: 'sap.ui.model.type.DateTime',
+							formatOptions: {
+								source: {
+									pattern: 'MM/dd/yyyy/hh:mm:ss'
+								},
+								pattern: 'dd.MM.yyyy HH:mm'
+							}
+						}">
+						<firstStatus>
+							<ObjectStatus
+								text="Available"
+								state="Success" />
+						</firstStatus>
+						<ObjectAttribute text="{appointments>cinemaName}" />
+						<ObjectAttribute text="{appointments>cinemaAddress}" />
+					</ObjectListItem>
+				</items>
+			</List>
 		</content>
 		<footer>
 			<Toolbar>

@@ -55,6 +55,10 @@
 			"movies": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "model/Movies.json"
+			},
+			"appointments": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/Appointments.json"
 			}
 		},
 		"resources": {
