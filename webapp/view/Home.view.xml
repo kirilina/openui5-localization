@@ -55,8 +55,9 @@
 					<Label/>
 					<Button
 						type="Emphasized"
+						width="110px"
 						text="Find Movies"
-						class="sapUiSmallMarginTop"
+						class="sapUiTinyMarginTop"
 						press=".onPress('for movies!')"/>
 				</f:content>
 			</f:SimpleForm>
