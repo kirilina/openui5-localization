@@ -3,10 +3,10 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<MessagePage
-		title="{i18n>notFoundTitle}"
-		text="{i18n>notFoundText}"
+		title="Bummer!"
+		text="This movie has not been made yet"
 		icon="sap-icon://video"
-		description="{i18n>notFoundDescription}"
+		description="Come back soon..."
 		showNavButton="true"
 		navButtonPress=".onNavBack">
 	</MessagePage>

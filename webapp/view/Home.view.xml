@@ -5,57 +5,57 @@
 	xmlns:core="sap.ui.core"
 	xmlns:f="sap.ui.layout.form"
 	xmlns:unified="sap.ui.unified">
-	<Page title="{i18n>title}">
+	<Page title="Watch Movies">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
 				rootRole="Main"
-				rootLabel="{i18n>landmarkMainPage}"
+				rootLabel="Movies Page"
 				contentRole="Region"
-				contentLabel="{i18n>landmarkContent}"
+				contentLabel="Content"
 				footerRole="ContentInfo"
-				footerLabel="{i18n>landmarkFooter}"
+				footerLabel="Footer"
 				headerRole="Region"
-				headerLabel="{i18n>title}"/>
+				headerLabel="Watch Movies"/>
 		</landmarkInfo>
 		<content>
 			<Image
 				visible="{= !${device>/system/phone} }"
 				src="images/MoviesHeader.png"
 				width="100%"
-				tooltip="{i18n>imageTooltip}"
-				press="sap.m.MessageToast.show(${i18n>messageToast})"/>
+				tooltip="Movie illustration"
+				press="sap.m.MessageToast.show('Do you feel like going to the movies?')"/>
 			<f:SimpleForm
 				id="form"
 				editable="true"
 				layout="ColumnLayout"
-				title="{i18n>titleForm}"
+				title="Find Movies"
 				columnsM="2"
 				columnsL="3"
 				columnsXL="3">
 				<f:content>
 					<Label
-						text="{i18n>labelCity}"
+						text="City"
 						labelFor="city"/>
 					<SearchField
 						id="city"
 						width="100%"
 						showSearchButton="false"
-						placeholder="{i18n>cityPlaceholder}"/>
+						placeholder="Enter City"/>
 					<Label
-						text="{i18n>labelGenre}"
+						text="Genre"
 						labelFor="genre"/>
 					<Select
 						id="genre"
 						width="100%">
-						<core:ListItem icon="sap-icon://video" key="" text="{i18n>genreAll}"/>
-						<core:ListItem icon="sap-icon://physical-activity" key="Action" text="{i18n>genreAction}"/>
-						<core:ListItem icon="sap-icon://electrocardiogram" key="Horror" text="{i18n>genreHorror}"/>
-						<core:ListItem icon="sap-icon://paper-plane" key="ScienceFiction" text="{i18n>genreScienceFiction}"/>
+						<core:ListItem icon="sap-icon://video" key="" text="All"/>
+						<core:ListItem icon="sap-icon://physical-activity" key="Action" text="Action"/>
+						<core:ListItem icon="sap-icon://electrocardiogram" key="Horror" text="Horror"/>
+						<core:ListItem icon="sap-icon://paper-plane" key="ScienceFiction" text="Science Fiction"/>
 					</Select>
 					<Label/>
 					<Button
 						type="Emphasized"
-						text="{i18n>buttonMovieSearch}"
+						text="Find Movies"
 						class="sapUiSmallMarginTop"
 						press=".onPress('for movies!')"/>
 				</f:content>
@@ -67,7 +67,7 @@
 				appointmentsVisualization="Filled"
 				appointmentSelect=".onAppointmentSelect(${$parameters>/appointment})">
 				<toolbarContent>
-					<Title text="{i18n>calendarTitle}" titleStyle="H4"/>
+					<Title text="Showtimes" titleStyle="H4"/>
 				</toolbarContent>
 				<rows>
 					<PlanningCalendarRow
@@ -91,7 +91,7 @@
 		<footer>
 			<Toolbar>
 				<ToolbarSpacer/>
-				<Link emphasized="true" target="_blank" href="https://www.imdb.com/" text="{i18n>footerLink}"/>
+				<Link emphasized="true" target="_blank" href="https://www.imdb.com/" text="Explore the IMDb Movie Database"/>
 				<ToolbarSpacer/>
 			</Toolbar>
 		</footer>
